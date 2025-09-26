@@ -1,0 +1,28 @@
+{
+    "parent_dir": "D:/",
+    "data_dir": "data",
+    "constant": {
+        "sos": 1480
+    },
+    "stage": {
+        "SN": {
+            "xy": "101393974",
+            "z": "27266984"
+        },
+        "init_position": {
+            "x": {
+                "value": -1.5,
+                "unit": "cm"
+            },
+            "y": {
+                "value": 0,
+                "unit": "cm"
+            },
+            "z": {
+                "value": 2.5,
+                "unit": "cm"
+            }
+        },
+        "timeout": 60000
+    }
+}
