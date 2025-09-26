@@ -5,9 +5,9 @@ close all;
 
 scriptDir = fileparts(mfilename('fullpath'));
 %% Add mechanical stage utility files to path
-addpath(fullfile(scriptDir, '..', 'mechanical_stage'));
+addpath(fullfile(scriptDir, 'mechanical_stage'));
 %% Add Utilities
-addpath(fullfile(scriptDir, '..', 'utils'));
+addpath(fullfile(scriptDir, 'utils'));
 
 
 %% Load config
@@ -46,4 +46,4 @@ disp("--> Reached position")
 
 
 %% Disconnect
-cleanupMotor(motor_x);
+% cleanupMotor(motor_x);
